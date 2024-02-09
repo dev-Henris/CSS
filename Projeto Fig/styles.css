@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    margin-left: 76px;
+    margin-top: 44px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.menu-header {
+    margin-right: 23px;
+    color: #989D9C;
+    cursor: pointer;
+}
+
+.menu-header:hover { 
+    opacity: 0.6;
+}
+.menu-header:active { 
+    opacity: 0.4;
+}
+.button1 {
+
+    width: 130px;
+    height: 41px;
+    border-radius: 20.5px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    background: #665AE1;
+    color: #FFFF;
+    cursor: pointer;
+    border: none;
+
+
+}
+
+.button1:hover { opacity: 0.8;}
+.button1:active { opacity: 0.4;}
+
+.img-log {
+    width: 568px;
+    height: 500px;
+   margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+    margin-top: 144px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
+    color: #515151;
+
+}
+
+h2 {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+    color: #515151;
+
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+
+}
+
+.button-down {
+    background: #ADFF00;
+
+    width: 239px;
+    height: 64px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+
+}
+.button-down:hover {opacity: 0.6;}
+.button-down:active {opacity: 0.4;}
+
+@media screen and (max-width: 450px)
+{
+   header {
+  display: none;
+   }
+
+ h1 {
+
+font-size: 50px;
+line-height: 61px;
+text-align: center;
+width: auto;
+margin-top: 24px;
+}
+
+ h2 { 
+    
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37px;
+    width: auto;
+    text-align: center;
+ }
+
+p { 
+display: none;
+}
+
+.img-log { 
+    width: 90%;
+    height: 90%;
+    position: static;
+    display: block;
+    margin-left: 14px;
+    margin-top: 149px;
+    
+
+}
+
+.button-down { 
+
+    display: block;
+    margin: 0 auto;
+}
+
+section { 
+
+    display: inline;
+}
+
+
+
+
+
+}
+    
