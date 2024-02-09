@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 163px;
+}
+
+.menu-header {
+    margin-right: 32px;
+    color: #17233D;
+}
+
+.button-header {
+
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFFF;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+}
+
+.img-log {
+    width: 595.18px;
+    height: 500px;
+    margin-left: 121px;
+    display: inline-block;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 84.82px;
+
+}
+
+h1 {
+    font-family: Poppins;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    color: #161A49;
+    width: 582px;
+}
+
+p {
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #4B505A;
+    width: 493px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+
+}
+
+.button-down {
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #4CB538;
+}
+
+.button-down:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width:540px) {
+
+    section { 
+margin: 0;
+padding: 0;
+
+    }
+    a {
+        display: none;
+    }
+
+    h1 {
+        width: auto;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+p { 
+    width: auto;
+    text-align: center;
+}
+
+.button-header 
+{ 
+  position: fixed;
+  right: 15px;
+  top: 15px;
+}
+.button-down { 
+
+    display: block;
+    margin: 26px auto;
+
+}
+ 
+.img-log { 
+    width: auto;
+height: auto;
+    max-width: 90%;
+    margin: 0 auto;
+   padding: 0;
+   display: block;
+   position: relative;
+   top: 450px   ;
+}
+
+section { 
+position: relative;
+bottom: 200px;
+
+}
+main { 
+    position: fixed;
+    bottom: 250px;
+}
+
+}
